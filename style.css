@@ -1562,3 +1562,34 @@ button {
 ol .e {
     padding-bottom: 0px;
 }
+    
+/*----LIVE BUTTONS and LINK-------*/
+    
+button {
+    border: 1px solid rgba(90, 152, 208, 1);
+}
+
+.first button:hover {
+    box-shadow: 5px 5px 5px 5px rgba(90, 152, 208, .03);;
+}
+
+.first button:active {
+    background-color: rgba(90, 152, 208, .8);
+}
+
+.third button:hover {
+    box-shadow: 5px 10px 20px rgba(255, 255, 255, .2);;
+}
+
+.third button:active {
+    background-color: rgba(90, 152, 208, .1);
+    background-color: ;
+}
+
+.four a:hover {
+    text-shadow: 5px 5px 5px rgba(255, 255, 255, .4);
+}
+
+.second a:hover {
+    text-shadow: 5px 5px 5px rgba(90, 152, 208, .2);
+}
