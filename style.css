@@ -1,0 +1,1564 @@
+@font-face {
+    font-family: "Galien-Bold";
+    /* Гарнитура шрифта */
+    src: url(fonts/Galien-Bold.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    /* Гарнитура шрифта */
+    src: url(fonts/Gilroy/Gilroy-Bold.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "Gilroy-Light";
+    /* Гарнитура шрифта */
+    src: url(fonts/Gilroy/Gilroy-Light.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    /* Гарнитура шрифта */
+    src: url(fonts/Gilroy/Gilroy-Medium.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    /* Гарнитура шрифта */
+    src: url(fonts/Gilroy/Gilroy-Regular.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    /* Гарнитура шрифта */
+    src: url(fonts/Gilroy/Gilroy-SemiBold.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.second {
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/*XS-HEADER*/
+
+@media (min-width: 50px) {
+    .first {
+        background: linear-gradient(0deg, rgba(152, 195, 232, 0.4), 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    }
+
+
+    .first .back2 {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: 70%;
+        background-position: right;
+
+    }
+
+
+
+    .header {
+        margin-left: 2.2em;
+        margin-right: 2.2em;
+        margin-top: 2.5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .dropdown {}
+
+    .mainmenubtn {
+        color: white;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .first .content-block {
+        padding-bottom: 5em;
+        margin-left: 1em;
+        margin-top: 4.3em;
+    }
+
+    .first h2 {
+        font-family: Galien-Bold, Times, Times New Roman, serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 37px;
+        line-height: 74px;
+
+        width: 8em;
+        /* or 116% */
+
+        letter-spacing: 0.04em;
+
+        /* Blue_01 */
+
+        color: #1F3F68;
+        margin-bottom: 0.70em
+    }
+
+    .first p {
+        font-family: Gilroy-Regular, sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: 0.05em;
+        width: 18.5em;
+
+        /* Blue_01 */
+
+        color: #1F3F68;
+        opacity: 0.6;
+        margin-bottom: 3.5em
+    }
+
+    .first button {
+        width: 220px;
+        height: 56px;
+        background: #5A98D0;
+        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+        border-radius: 10px;
+
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        letter-spacing: 0.04em;
+
+        color: #FFFFFF;
+
+    }
+}
+
+/*-------------
+
+
+/*XS-HEADER*/
+
+@media (min-width: 448px) {
+    .first {
+        background: linear-gradient(0deg, rgba(152, 195, 232, 0.4), 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    }
+
+
+    .first .back2 {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: 70%;
+        background-position: right;
+
+    }
+
+
+
+    .header {
+        margin-left: 2.2em;
+        margin-right: 2.2em;
+        margin-top: 2.5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .dropdown {}
+
+    .mainmenubtn {
+        color: white;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .first .content-block {
+        padding-bottom: 5em;
+        margin-left: 2em;
+        margin-top: 4.3em;
+    }
+
+    .first h2 {
+        font-family: Galien-Bold, Times, Times New Roman, serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 74px;
+
+        width: 8em;
+        /* or 116% */
+
+        letter-spacing: 0.04em;
+
+        /* Blue_01 */
+
+        color: #1F3F68;
+        margin-bottom: 0.70em
+    }
+
+    .first p {
+        font-family: Gilroy-Regular, sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: 0.05em;
+        width: 25.5em;
+
+        /* Blue_01 */
+
+        color: #1F3F68;
+        opacity: 0.6;
+        margin-bottom: 3.5em
+    }
+
+    .first button {
+        width: 220px;
+        height: 56px;
+        background: #5A98D0;
+        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+        border-radius: 10px;
+
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        letter-spacing: 0.04em;
+
+        color: #FFFFFF;
+
+    }
+}
+
+/*-------------
+
+
+/Mid-HEADER 743*/
+
+@media (min-width: 568px) {
+    .first {
+        background: linear-gradient(0deg, rgba(152, 195, 232, 0.4), 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    }
+
+    .first .back2 {
+        background-image: url(img/illustration.svg);
+        background-repeat: no-repeat;
+        background-size: 70%;
+        background-position: right;
+
+    }
+
+    .header {
+        margin-left: 2.2em;
+        margin-right: 2.2em;
+        margin-top: 2.5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .dropdown {}
+
+    .mainmenubtn {
+        color: white;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .first .content-block {
+        padding-bottom: 3.5em;
+        margin-left: 2em;
+        margin-top: .3em;
+    }
+
+    .first h2 {
+        font-family: Galien-Bold, Times, Times New Roman, serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 74px;
+        width: 10em;
+        /* or 116% */
+
+        letter-spacing: 0.04em;
+
+        /* Blue_01 */
+
+        color: #1F3F68;
+        margin-bottom: 0.0em
+    }
+
+    .first p {
+        font-family: Gilroy-Regular, sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: 0.05em;
+        width: 9.5em;
+
+        /* Blue_01 */
+
+        color: #1F3F68;
+        opacity: 0.6;
+        margin-bottom: 1.5em
+    }
+
+    .first button {
+        width: 220px;
+        height: 56px;
+        background: #5A98D0;
+        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+        border-radius: 10px;
+
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        letter-spacing: 0.04em;
+
+        color: #FFFFFF;
+
+    }
+}
+
+/*-------------
+
+/MEDIUM-HEADER 970*/
+
+@media (min-width: 768px) {
+    .first {
+        background: linear-gradient(0deg, rgba(152, 195, 232, 0.4), 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    }
+
+    .first .back2 {
+        background-image: url(img/illustration.svg);
+        background-repeat: no-repeat;
+        background-size: 70%;
+        background-position: right;
+
+    }
+
+    .header {
+        margin-left: 2.2em;
+        margin-right: 2.2em;
+        margin-top: 2.5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .dropdown {}
+
+    .mainmenubtn {
+        color: white;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .first .content-block {
+        padding-bottom: 7em;
+        margin-left: 2em;
+        margin-top: .3em;
+    }
+
+    .first h2 {
+        font-family: Galien-Bold, Times, Times New Roman, serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 74px;
+        width: 10em;
+        /* or 116% */
+
+        letter-spacing: 0.04em;
+
+        /* Blue_01 */
+
+        color: #1F3F68;
+        margin-bottom: 1.0em
+    }
+
+    .first p {
+        font-family: Gilroy-Regular, sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: 0.05em;
+        width: 14.5em;
+
+        /* Blue_01 */
+
+        color: #1F3F68;
+        opacity: 0.6;
+        margin-bottom: 6.5em
+    }
+
+    .first button {
+        width: 220px;
+        height: 56px;
+        background: #5A98D0;
+        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+        border-radius: 10px;
+
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        letter-spacing: 0.04em;
+
+        color: #FFFFFF;
+
+    }
+}
+
+
+/*-----------
+
+/large-HEADER 1220*/
+
+@media (min-width:970px) {
+    .first {
+        background: linear-gradient(0deg, rgba(152, 195, 232, 0.4), 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    }
+
+    .first .back2 {
+        background-image: url(img/illustration.svg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: right
+    }
+
+    .header {
+        margin-left: 5.2em;
+        margin-right: 5.2em;
+        margin-top: 2.5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .dropdown {}
+
+    .mainmenubtn {
+        color: white;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .first .content-block {
+        padding-bottom: 7em;
+        margin-left: 10em;
+        margin-top: 6.3em;
+    }
+
+    .first h2 {
+        font-family: Galien-Bold, Times, Times New Roman, serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 74px;
+        width: 8em;
+        /* or 116% */
+
+        letter-spacing: 0.04em;
+
+        /* Blue_01 */
+
+        color: #1F3F68;
+        margin-bottom: 0.5em
+    }
+
+    .first p {
+        font-family: Gilroy-Regular, sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: 0.05em;
+        width: 12.5em;
+
+        /* Blue_01 */
+
+        color: #1F3F68;
+        opacity: 0.6;
+        margin-bottom: 5.5em
+    }
+
+    .first button {
+        width: 220px;
+        height: 56px;
+        background: #5A98D0;
+        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+        border-radius: 10px;
+
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        letter-spacing: 0.04em;
+
+        color: #FFFFFF;
+
+    }
+}
+
+/*-------------
+
+
+/* XL - HEADER ------*/
+
+@media (min-width:1220px) {
+    .first {
+        background: linear-gradient(0deg, rgba(152, 195, 232, 0.4), 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    }
+
+    .first .back2 {
+        background-image: url(img/illustration.svg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: right
+    }
+
+    .header {
+        margin-left: 5.2em;
+        margin-right: 5.2em;
+        margin-top: 2.5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .dropdown {}
+
+    .mainmenubtn {
+        color: white;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .first .content-block {
+        padding-bottom: 12em;
+        margin-left: 13em;
+        margin-top: 6.3em;
+    }
+
+    .first h2 {
+        font-family: Galien-Bold, Times, Times New Roman, serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 74px;
+        width: 8em;
+        /* or 116% */
+
+        letter-spacing: 0.04em;
+
+        /* Blue_01 */
+
+        color: #1F3F68;
+        margin-bottom: 0.5em
+    }
+
+    .first p {
+        font-family: Gilroy-Regular, sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: 0.05em;
+        width: 26.5em;
+
+        /* Blue_01 */
+
+        color: #1F3F68;
+        opacity: 0.6;
+        margin-bottom: 4.5em
+    }
+
+    .first button {
+        width: 220px;
+        height: 56px;
+        background: #5A98D0;
+        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+        border-radius: 10px;
+
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        letter-spacing: 0.04em;
+
+        color: #FFFFFF;
+
+    }
+}
+
+
+
+/* SECOND BLOCK */
+
+
+/* screen - LARGE */
+
+@media (max-width : 3000px) {
+    .second {
+        height: 1450px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .container {
+        align-items: center;
+        padding-top: 80px;
+
+        display: flex;
+        width: 940px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        align-content: space-between;
+        flex-wrap: wrap-reverse;
+    }
+
+    .second .txt {
+        font-family: Gilroy-SemiBold, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+        /* or 128% */
+
+        letter-spacing: 0.05em;
+
+        /* blue_02 */
+
+        color: #316099;
+        width: 360px;
+        padding-bottom: 158px;
+        padding-right: 30px;
+        height: 138px;
+
+
+    }
+
+    .card {
+        padding: 236px 48px 48px 48px;
+        border: 1px solid black;
+        width: 284px;
+        height: 241px;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+
+
+    }
+
+    .card0 {
+        width: 358px;
+        height: 196px;
+        order: 1;
+        margin-top: 100px;
+        margin-right: 150px;
+
+
+    }
+
+    .card1 {
+        order: 0;
+        margin-right: 0px;
+    }
+
+    .card2 {
+        order: 1;
+        margin-left: 80px;
+    }
+
+    .card3 {
+        order: 0;
+        margin-right: 0px;
+    }
+}
+
+
+/* SCREEN - MID */
+
+@media (max-width : 1200px) {
+    .second {
+        height: 1450px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .container {
+        align-items: center;
+        padding-top: 80px;
+        padding-left: 30px;
+
+        display: flex;
+
+        width: 820px;
+
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        align-content: space-between;
+        flex-wrap: wrap-reverse;
+    }
+
+    .second .txt {
+        font-family: Gilroy-SemiBold, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+        /* or 128% */
+
+        letter-spacing: 0.05em;
+
+        /* blue_02 */
+
+        color: #316099;
+        width: 360px;
+        padding-bottom: 158px;
+        padding-right: 30px;
+        height: 138px;
+
+
+    }
+
+    .card {
+        padding: 236px 48px 48px 48px;
+        border: 1px solid black;
+        width: 284px;
+        height: 241px;
+        margin-top: 100px;
+        margin-left: 25px;
+        margin-right: 25px;
+
+
+    }
+
+    .card0 {
+        width: 358px;
+        height: 196px;
+        order: 1;
+        margin-top: 100px;
+        margin-right: 0px;
+
+
+    }
+
+    .card1 {
+        order: 0;
+        margin-right: 0px;
+    }
+
+    .card2 {
+        order: 1;
+        margin-left: 0px;
+    }
+
+    .card3 {
+        order: 0;
+        margin-right: 0px;
+    }
+}
+
+/*------------------------------------*/
+
+
+/* SCREEN - SMALL */
+
+@media (max-width : 900px) {
+    .second {
+        height: 2400px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .container {
+        align-items: center;
+        padding-top: 80px;
+        padding-left: 0px;
+
+        display: flex;
+
+        width: 450px;
+
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .second .txt {
+        font-family: Gilroy-SemiBold, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+        /* or 128% */
+
+        letter-spacing: 0.05em;
+
+        /* blue_02 */
+
+        color: #316099;
+        width: 360px;
+        height: 138px;
+        padding: 0px;
+
+
+    }
+
+    .card {
+        padding: 236px 48px 48px 48px;
+        border: 1px solid black;
+        width: 284px;
+        height: 241px;
+        margin-top: 100px;
+        margin-left: 25px;
+        margin-right: 25px;
+
+
+    }
+
+    .card0 {
+        width: 358px;
+        height: 146px;
+        order: 0;
+        margin-top: 100px;
+
+
+    }
+
+    .card1 {
+        order: 0;
+
+    }
+
+    .card2 {
+        order: 0;
+
+    }
+
+    .card3 {
+        order: 0;
+
+    }
+}
+
+/*------------------------------------*/
+.card1:after {
+    content: "-20%";
+    display: block;
+    position: absolute;
+    top: -22px;
+    right: 65px;
+    color: white;
+    background-image: url(img/3.svg);
+    background-repeat: no-repeat;
+    z-index: 10;
+    width: 66%;
+    height: 50%;
+}
+
+.second .card-h {
+    font-family: Gilroy-Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: 0.05em;
+
+    /* Blue_01 */
+
+    color: #1F3F68;
+    width: 284px;
+    margin-bottom: 16px;
+}
+
+.second .card-text {
+    font-family: Gilroy-Light, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.05em;
+
+    /* Blue_01 */
+
+    color: #1F3F68;
+    opacity: 0.6;
+    margin-bottom: 32px;
+
+}
+
+.b-learn {
+    display: flex;
+    align-items: center;
+}
+
+.second .txt-b-learn {
+    font-family: Gilroy-SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+
+    letter-spacing: 0.05em;
+
+    /* blue_04 */
+
+    color: #5A98D0;
+    margin-right: 24px;
+}
+
+/* SCREEN - SMALL */
+
+@media (max-width : 448px) {
+    .second {
+        height: 2320px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .container {
+        align-items: center;
+        padding-top: 0px;
+        padding-left: 0px;
+
+        display: flex;
+
+        width: 290px;
+
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .second .txt {
+        font-family: Gilroy-SemiBold, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 46px;
+        /* or 128% */
+
+        letter-spacing: 0.05em;
+
+        /* blue_02 */
+
+        color: #316099;
+
+        width: 260px;
+        height: 138px;
+
+        padding: 0px;
+
+
+    }
+
+    .card {
+        padding: 236px 0px 48px 0px;
+        border: 1px solid black;
+        width: 284px;
+        height: 241px;
+        margin-top: 100px;
+        margin-left: 25px;
+        margin-right: 25px;
+
+
+    }
+
+    .card0 {
+        width: 210px;
+        height: 146px;
+        order: 0;
+        margin-top: 100px;
+
+
+    }
+
+    .card1 {
+        order: 0;
+
+    }
+
+    .card2 {
+        order: 0;
+
+    }
+
+    .card3 {
+        order: 0;
+
+    }
+
+    .card1:after {
+        content: "-20%";
+        display: block;
+        position: absolute;
+        top: -22px;
+        right: 8px;
+        color: white;
+        background-image: url(img/3.svg);
+        background-repeat: no-repeat;
+        z-index: 10;
+        width: 90%;
+        height: 50%;
+    }
+
+    .second .card-h {
+        font-family: Gilroy-Medium, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        /* or 150% */
+
+        letter-spacing: 0.05em;
+
+        /* Blue_01 */
+
+        color: #1F3F68;
+        width: 230px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .second .card-text {
+        font-family: Gilroy-Light, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: 0.05em;
+
+        /* Blue_01 */
+
+        color: #1F3F68;
+        opacity: 0.6;
+
+        margin-bottom: 28px;
+
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify
+    }
+
+    .b-learn {
+        display: flex;
+        align-items: center;
+        width: 128px;
+        margin: 0 auto;
+    }
+
+    .second .txt-b-learn {
+        font-family: Gilroy-SemiBold;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 30px;
+        /* identical to box height, or 214% */
+
+        letter-spacing: 0.05em;
+
+        /* blue_04 */
+
+        color: #5A98D0;
+        margin-right: 24px;
+    }
+
+}
+
+
+
+/*------------------------------------*/
+
+
+
+.card {
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    border: 0px solid black;
+}
+
+.card-pic {}
+
+
+
+.card2:after {
+    content: "-20%";
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 12px;
+    color: white;
+    background-image: url(img/1.svg);
+    background-repeat: no-repeat;
+    z-index: 10;
+    width: 80%;
+    height: 50%;
+}
+
+.card3:after {
+    content: "-20%";
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    color: white;
+    background-image: url(img/2%2020.svg);
+    background-repeat: no-repeat;
+    z-index: 10;
+    width: 60%;
+    height: 50%;
+}
+
+.third {
+    width: 100%;
+    height: 100%;
+
+
+    /* blue_04 */
+
+    background: #5A98D0;
+    border-radius: 200px 0px 0px 0px;
+
+}
+
+.third-main {
+    padding-top: 96px;
+
+
+}
+
+.four {
+    width: 94.7%;
+    height: 100%;
+
+    /* blue_02 */
+
+    background: #316099;
+    border-radius: 0px 200px 0px 0px;
+}
+
+.text-blc {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 111px;
+}
+
+.text-blc p {
+    display: inline-block;
+}
+
+.text-blc .h-txt {
+    font-family: Gilroy-SemiBold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.text-blc .txt {
+    font-family: Gilroy-Regular, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.third .tab-block {
+    margin: 0 20px;
+    margin-bottom: 125px;
+    overflow: auto;
+}
+
+.third table {
+    border-collapse: collapse;
+    /* Убираем двойные линии между ячейками */
+    border: 2px solid #5A98D0;
+    margin: 0 auto;
+}
+
+.third td,
+.third tr {
+    padding: 41px 46px;
+    /* Поля вокруг содержимого таблицы */
+    border: 1px solid #FFFFFF;
+    /* Параметры рамки */
+    text-align: center;
+    /* Выравнивание по левому краю */
+}
+
+.third td {
+    font-family: Gilroy-SemiBold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 46px;
+    /* identical to box height, or 230% */
+
+    letter-spacing: 0.02em;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.third .more-cl {
+    background: #1F3F68;
+    opacity: 0.2;
+}
+
+.four-top {
+    padding-top: 91px;
+}
+
+.four-top .all-block {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+
+}
+
+.all-block .text-only {
+    width: 100%;
+
+}
+
+.all-block .for-butt {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.four-top .h-txt {
+    font-family: Gilroy-SemiBold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+
+    display: block;
+    width: 70%;
+    margin-bottom: 32px;
+
+}
+
+.four-top .txt {
+    font-family: Gilroy-Regular, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+    opacity: 0.6;
+    display: block;
+
+}
+
+.btn-blc {
+    margin: 0 auto;
+    width: 222px;
+}
+
+.four-top button {
+
+    background: #5A98D0;
+    border-radius: 10px;
+    border-color: #5A98D0;
+    font-family: Gilroy-Regular, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+
+    width: 100%;
+    height: 56px;
+
+    margin: 0 auto;
+    cursor: pointer
+}
+
+/*---------------------------*/
+
+.line {
+    width: 100%;
+    height: 0px;
+
+    opacity: 0.4;
+    /* white */
+
+    border: 1px solid #FFFFFF;
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+.four ul {
+    list-style-position: outside;
+}
+
+.stolb2 li,
+.stolb3 li {
+    list-style-type: none;
+}
+
+/*
+.stolb1 li.f:before {
+    content: "A. ⠀";
+    
+}
+
+.stolb1 li.s:before {
+    content: "T. ⠀";
+    
+}
+
+.stolb1 li.t:before {
+    content: "E. ⠀";
+
+}
+*/
+
+.stolb1 li {
+    padding-bottom: 24px;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.company p {
+    font-family: Gilroy-SemiBold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 46px;
+    /* identical to box height, or 164% */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.inf-blc {
+    font-family: Gilroy-Light, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.stolb2 p,
+.stolb3 p {
+    font-family: Gilroy-SemiBold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+
+.four-footer a {
+    font-family: Gilroy-Light, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.stolb2 li {
+    padding-bottom: 16px;
+}
+
+.stolb3 li {
+    padding-bottom: 16px;
+}
+
+.all-reserved {
+    font-family: Gilroy-Light, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+    opacity: 0.4;
+
+    padding: 0;
+    margin-bottom: 64px;
+}
+
+.four ol {
+    display: list-item;
+    list-style-image: none;
+    list-style-type: upper-alpha;
+    /* Заглавные буквы */
+}
+
+.four-footer ol {
+    padding: 0;
+    /* Убираем поля */
+    margin-left: 20px;
+
+}
+
+.four ol li {
+    padding-left: 14px;
+    width: 70%
+}
+
+.inf-blc {
+    padding-left: 20px;
+}
+
+.stolb1,
+.stolb2,
+.stolb3 {
+    padding: 0;
+    margin-bottom: 64px;
+}
+
+.four-footer {
+    justify-content: flex-start;
+    width: 73.8%;
+    margin: 0 auto;
+}
+
+.stolb2,
+.stolb3 {
+    margin-right: 20px;
+}
+
+ol .e {
+    padding-bottom: 0px;
+}
