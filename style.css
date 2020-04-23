@@ -1248,6 +1248,7 @@ button {
         align-items: center;
         width: 128px;
         margin: 0 auto;
+        margin-bottom: 48px;
     }
 
     .second .txt-b-learn {
